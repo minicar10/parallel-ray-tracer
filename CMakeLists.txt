@@ -4,11 +4,12 @@ project(ParallelRayTracer)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Enable SIMD instructions (SSE/AVX) for the compiler
+include_directories(include)
+
 if(MSVC)
     add_compile_options(/arch:AVX2)
 else()
     add_compile_options(-mavx2 -pthread)
 endif()
 
-add_executable(RayTracer main.cpp)
+add_executable(RayTracer src/main.cpp)
