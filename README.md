@@ -1,4 +1,5 @@
-Parallel Ray Tracer (High-Performance Computing)
+![Render Output](output.png)
+# Parallel Ray Tracer (High-Performance Computing)
 A high-performance C++11 ray tracer developed to explore low-level system optimization, concurrency, and hardware-accelerated math. This project demonstrates a deep dive into system architecture by squeezing maximum performance out of quad-core hardware.
 
 Performance Highlights
