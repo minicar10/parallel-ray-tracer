@@ -6,7 +6,7 @@ Performance Highlights:
 Latency Reduction: Minimized heap fragmentation and cache misses via custom memory management.
 
 Key Technical Features:
-1. Multi-Threaded Processing
+1. Multi-Threaded Processing:
 Leveraged C++11 concurrency primitives (std::thread) to parallelize the rendering pipeline.
 Implemented a tile-based rendering strategy to distribute pixel calculations across all available CPU cores, maximizing hardware utilization.
 
